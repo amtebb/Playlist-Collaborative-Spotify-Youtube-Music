@@ -7,8 +7,8 @@ import requests
 from datetime import datetime, timedelta 
 
 
-client_id='ID CLIENT SPOT'
-secret_client='SECRET CLIENT SPOT'
+client_id='ID CLIENT SPOTIFY'
+secret_client='SECRET CLIENT SPOTIFY'
 url_ytb="URL PLAYLIST YOUTUBE"
 url_spot="URL PLAYLIST SPOT"
 
