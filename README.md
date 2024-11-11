@@ -1,7 +1,7 @@
 # Playlist Collab YouTube Music & Spotify
 
 ## Description
-Ce projet est un script Python permettant de créer et gérer des playlists collaboratives entre YouTube Music et Spotify. Il offre la possibilité de récupérer des titres depuis l'une des plateformes et de les synchroniser avec l'autre, facilitant ainsi le partage et la découverte musicale entre utilisateurs de services différents.
+Ce projet est un script Python permettant de créer et gérer des playlists collaboratives entre YouTube Music et Spotify. Il offre la possibilité de faire une playlist collaborative entre un.e utilisateur.rice de spotify et de youtube music.
 
 ## Fonctionnalités
 - Connexion aux API de YouTube Music et Spotify.
@@ -32,21 +32,17 @@ Ce projet est un script Python permettant de créer et gérer des playlists coll
 
 ## Utilisation
 1. Assurez-vous d'avoir configuré vos clés API pour YouTube et Spotify.
-2. Modifiez le fichier `oauth.json` pour inclure vos identifiants d'API.
-3. Exécutez le script principal :
+2. Modifiez le fichier `oauth.json` pour inclure vos identifiants d'API Youtube Music.
+3. Au début du fichier `main.py` vous pouvez inserer vos identifiants d'API Spotify ainsi que les urls de la playlist spotify et Youtube Music. 
+4. Exécutez le script principal :
    ```bash
    python main.py
    ```
-4. Suivez les instructions affichées pour choisir les playlists et les options de synchronisation.
+5. Lancez le fichier `exe.py` pour faire la synchronisation. Vous pouvez définir une tache sur votre PC pour lancer la synchronisation aux heures qui vous arrangent (attention à la limite de requetes API)
+6. Si il n'y a pas de connexion, le programme tentera la synchronisation périodiquement pendant 2 heures. 
 
 ## Prérequis
 - Python 3.7+
 - Clés API pour YouTube Music et Spotify
 
-## Configuration
-Créez un fichier `config.py` et ajoutez les lignes suivantes :
-```python
-YOUTUBE_API_KEY = 'votre_clé_youtube'
-SPOTIFY_CLIENT_ID = 'votre_client_id_spotify'
-SPOTIFY_CLIENT_SECRET = 'votre_secret_spotify'
-```
+
