@@ -36,7 +36,7 @@ Ce projet est un script Python permettant de créer et gérer des playlists coll
 3. Au début du fichier `main.py` vous pouvez inserer vos identifiants d'API Spotify ainsi que les urls de la playlist spotify et Youtube Music. 
 4. Exécutez le script principal :
    ```bash
-   python main.py
+   python exe.py
    ```
 5. Lancez le fichier `exe.py` pour faire la synchronisation. Vous pouvez définir une tache sur votre PC pour lancer la synchronisation aux heures qui vous arrangent (attention à la limite de requetes API)
 6. Si il n'y a pas de connexion, le programme tentera la synchronisation périodiquement pendant 2 heures. 
