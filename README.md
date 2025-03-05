@@ -25,10 +25,7 @@ Ce projet est un script Python permettant de créer et gérer des playlists coll
    ```bash
    cd playlist-collab-ytb-music-spor
    ```
-3. Installez les dépendances requises :
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Installez les dépendances requises.
 
 ## Utilisation
 1. Assurez-vous d'avoir configuré vos clés API pour YouTube et Spotify.
